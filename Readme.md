@@ -13,7 +13,7 @@ This repository contains an implementation of the Field Boundary Detection Model
 
 - `/notebooks`: Jupyter notebooks for data preprocessing, model training, and evaluation.
 - `/decode_fh`: Source code for the FracTAL ResUNet model.
-- `/data`: Placeholder for dataset (not included in this repository).
+- `/BM_PTRAIN_DUCTH_FM_128x128_1`: Model pre-trained weights from Dutch dataset.
 
 ## Usage
 
@@ -24,6 +24,7 @@ This repository contains an implementation of the Field Boundary Detection Model
 
 If you use this code or the FBDM model in your research, please cite the original paper:
 
+```bash
 @Article{rs13112197,
 AUTHOR = {Waldner, François and Diakogiannis, Foivos I. and Batchelor, Kathryn and Ciccotosto-Camp, Michael and Cooper-Williams, Elizabeth and Herrmann, Chris and Mata, Gonzalo and Toovey, Andrew},
 TITLE = {Detect, Consolidate, Delineate: Scalable Mapping of Field Boundaries Using Satellite Images},
